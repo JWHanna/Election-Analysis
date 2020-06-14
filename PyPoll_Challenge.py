@@ -112,7 +112,9 @@ with open(file_to_save, "w") as txt_file:
     txt_file.write(election_results)
 
     # Print & save section header to text file
-    print("County Votes:\n")
+    county_vote_header = "County Votes:\n"
+    print(county_vote_header)
+    txt_file.write(county_vote_header)
     
     # Iterate through the counties list
     for county in counties:
@@ -132,11 +134,11 @@ with open(file_to_save, "w") as txt_file:
             # If true then set largest_turnout = county_vote_count
             largest_turnout_count = county_vote_count
             # Set largest_turnout_count equal to largest_turnout_county
-            largest_turnout_county = largest_turnout_count
+            largest_turnout_county = county
 
     largest_turnout_summary = (
         f"-------------------------\n"
-        f"Largest County Turnout: {largest_turnout_county:,}\n"
+        f"Largest County Turnout: {largest_turnout_county} ({largest_turnout_count:,})\n"
         f"-------------------------\n")
     print(largest_turnout_summary, end="")
     txt_file.write(largest_turnout_summary)
