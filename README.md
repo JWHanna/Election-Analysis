@@ -18,9 +18,9 @@ Colorado election audit
 Total votes: 369,711
 
 Candidates who recieved votes:
-Charles Casper Stockham: 23.0% (85,213)
-Dianna DeGette: 73.8% (272, 829)
-Raymon Anthony Doane: 3.1% (11,606)
+- Charles Casper Stockham: 23.0% (85,213)
+- Dianna DeGette: 73.8% (272, 829)
+- Raymon Anthony Doane: 3.1% (11,606)
 
 Winner: 
 Dianne DeGette
