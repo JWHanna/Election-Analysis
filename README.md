@@ -26,5 +26,15 @@ Winner:
 Dianne DeGette
 
 ## Challenge Overview
+1. Calculate the number of votes from each county
+2. Calculate the percentage of the total vote for each county
+3. Determine the county with the highest voter turnout 
 
-## Chgallenge Summary
+## Challenge Summary
+County Votes:
+- Jefferson: 10.5% (38,855)
+- Denver: 82.8% (306,055)
+- Arapahoe: 6.7% (24,801)
+
+Largest County Turnout: Denver (306,055)
+
